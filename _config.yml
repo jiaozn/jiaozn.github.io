@@ -7,9 +7,9 @@ resume_site: http://jiaozn.github.io
 github: https://github.com/jiaozn/
 baseurl: "/jiaozn.github.io"
 description: There's my hole,gotta fly!
-meta_description: 奔腾年代;个人博客;644511346;jiaozn博客;jiaozn;奔腾年代博客
+meta_description: 奔腾年代博客;644511346;jiaozn博客;jiaozn
 motto: “战略上藐视敌人，战术上重视敌人”
-banner: <marquee>There's my hole,gotta fly!</marquee>
+banner: There's my hole,gotta fly!
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
