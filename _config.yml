@@ -1,15 +1,15 @@
 # Site settings
 name: 奔腾年代
 email: 644511346@qq.com
-author: jiaozn
+author: 奔腾年代
 url: https://jiaozn.github.io
-resume_site: http://www.hifreud.com/Resume.io/
+resume_site: http://jiaozn.github.io
 github: https://github.com/jiaozn/
 baseurl: "/jiaozn.github.io"
 description: There's my hole,gotta fly!
-meta_description: 奔腾年代;个人博客
-motto: Er...en?motto where?-seabiscuit
-banner: Banner what?!-seabiscuit
+meta_description: 奔腾年代;个人博客;644511346;jiaozn博客;jiaozn;奔腾年代博客
+motto: “战略上藐视敌人，战术上重视敌人”
+banner: <marquee>There's my hole,gotta fly!</marquee>
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
