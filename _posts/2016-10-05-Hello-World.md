@@ -27,8 +27,7 @@ tag: github博客,jekyll博客,LessOrMore博客主题
 
 所以先不管什么markdowd的md,jekyll的本地开发……我的初衷就是要一个稳定、自由的blog...  
   
-`There's abandon.There's选择不学习.  
-学习share/合作/信任.This github way.`  
+`There's abandon.There's选择不学习.学习share/合作/信任.This github way.`  
 Anyway,这个模板有如下功能：  
 
 ----------
