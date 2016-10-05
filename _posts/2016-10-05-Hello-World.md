@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "你好，世界。——from 奔腾年代,China"
-date:   10/5/2016 1:57:43 PM 
+date:   2016/10/5 14:05:44  
 categories: 生活
 tag: github博客,jekyll博客,LessOrMore博客,LessOrMore主题
 ---
