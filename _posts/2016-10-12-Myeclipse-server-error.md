@@ -14,9 +14,9 @@ tag: myeclipse
 Myeclipse10 server视图报错
 ----------
 
-
-``Could not create the view: An unexpected exception was thrown
-java.lang.NullPointerException
+{% highlight bash %}
+Could not create the view: An unexpected exception was thrown
+java.lang.NullPointerException`
 	at com.genuitec.eclipse.ast.deploy.core.Deployment.<init>(Unknown Source)
 	at com.genuitec.eclipse.ast.deploy.core.ModuleDeployment.<init>(Unknown Source)
 	at com.genuitec.eclipse.ast.deploy.core.WebDeployment.<init>(Unknown Source)
@@ -65,8 +65,8 @@ java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)`
-
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+{% endhighlight %}
 
 
 
