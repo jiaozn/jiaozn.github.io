@@ -11,9 +11,12 @@ tag: myeclipse
 
 
 
-##Myeclipse10 server视图报错
+Myeclipse10 server视图报错
 
-`Could not create the view: An unexpected exception was thrown
+----------
+
+
+``Could not create the view: An unexpected exception was thrown
 java.lang.NullPointerException
 	at com.genuitec.eclipse.ast.deploy.core.Deployment.<init>(Unknown Source)
 	at com.genuitec.eclipse.ast.deploy.core.ModuleDeployment.<init>(Unknown Source)
@@ -63,39 +66,34 @@ java.lang.NullPointerException
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
-`
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)`
+
 
 
 ----------
 
 按照搜到的方法
 > 打开所在的wordspace文件夹，在下面子文件夹
-> 
-
-
 > .metadata\.plugins\org.eclipse.core.runtime\.settings
-
-
-
 > 删除
-
-
-
 > com.genuitec.eclipse.ast.deploy.core.prefs
-
-
-
 > 即可
 
 
-##试验一无效。
+试验一无效。
+
+----------
+
 
 我索性将整个workspace文件夹删除，重启问题依旧。
 
-##实验二无效。
+实验二无效。
+
+----------
 
 最终：
+
+----------
 
 - 删除D盘原有workspace（1.44G）
 - 默认在c盘新建workspace
@@ -104,6 +102,9 @@ java.lang.NullPointerException
 
 怀疑D盘产生问题，删除后使用默认的c盘workspace，但这个“新建的”C盘workspace其实并不是新建的，很可能是最初就有，我以前改到过D盘，导致该文件夹这么大。
 
-##结论
+结论
+
+----------
+
 
 网上分析很有道理，摁着工作空间使劲就行。见一个删一个，失败一个删一个，删删就好了。
