@@ -12,7 +12,6 @@ tag: myeclipse
 
 
 Myeclipse10 server视图报错
-
 ----------
 
 
@@ -70,9 +69,10 @@ java.lang.NullPointerException
 
 
 
-----------
+
 
 按照搜到的方法
+
 > 打开所在的wordspace文件夹，在下面子文件夹
 > .metadata\.plugins\org.eclipse.core.runtime\.settings
 > 删除
@@ -81,18 +81,15 @@ java.lang.NullPointerException
 
 
 试验一无效。
-
 ----------
 
 
 我索性将整个workspace文件夹删除，重启问题依旧。
 
 实验二无效。
-
 ----------
 
 最终：
-
 ----------
 
 - 删除D盘原有workspace（1.44G）
@@ -103,7 +100,6 @@ java.lang.NullPointerException
 怀疑D盘产生问题，删除后使用默认的c盘workspace，但这个“新建的”C盘workspace其实并不是新建的，很可能是最初就有，我以前改到过D盘，导致该文件夹这么大。
 
 结论
-
 ----------
 
 
