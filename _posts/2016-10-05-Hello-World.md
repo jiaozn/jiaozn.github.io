@@ -3,7 +3,7 @@ layout: post
 title:  "你好，世界!"
 date:   2016-10-5 14:05:44 +0800
 categories: 生活
-tag: github博客,jekyll博客,LessOrMore博客主题
+tag: github博客
 ---
 
 * content
