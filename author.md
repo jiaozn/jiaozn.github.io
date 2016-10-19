@@ -90,10 +90,16 @@ Photoshop
 我的很多日志，尤其是`经验分享`的内容，都是记录了自己“爬坑”，让以后的人能`“少走弯路”`，写的时候真的感觉自己蛮无私的，有时候内心还会有点舍不得哈哈。你能喜欢的话我很高兴，我也不排斥通过捐助的方式支持我。
 
 
-微信转账
+
+
+> 微信二维码付款给奔腾年代
+
 <img src="{{ '/styles/images/weixin.png' | prepend: site.baseurl }}" alt="微信二维码付款给奔腾年代" width="310" />
 
-支付宝转账
+
+
+> 支付宝二维码付款给奔腾年代
+
 <img src="{{ '/styles/images/zhifubao.jpg' | prepend: site.baseurl }}" alt="支付宝二维码付款给奔腾年代" width="310" />
 
 
