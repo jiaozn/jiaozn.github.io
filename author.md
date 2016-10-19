@@ -91,9 +91,9 @@ Photoshop
 
 
 微信转账
-![微信二维码打赏给奔腾年代]({{ '/styles/images/weixin.png' | prepend: site.baseurl }})
+<img src="{{ '/styles/images/weixin.png' | prepend: site.baseurl }}" alt="微信二维码付款给奔腾年代" width="310" />
 
 支付宝转账
-![支付宝二维码打赏给奔腾年代]({{ '/styles/images/zhifubao.jpg' | prepend: site.baseurl }})
+<img src="{{ '/styles/images/zhifubao.jpg' | prepend: site.baseurl }}" alt="支付宝二维码付款给奔腾年代" width="310" />
 
 
